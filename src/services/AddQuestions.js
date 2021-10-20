@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const QUES_RESTAPI_TO_ADD='/addQuestion';
+const QUES_RESTAPI_TO_ADD='https://codedaily.herokuapp.com/addQuestion';
 
 class AddQuestionService{
 
