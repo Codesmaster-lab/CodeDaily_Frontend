@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const QUES_RESTAPI_TO_RETREIVE_ALL='http://codedaily.herokuapp.com/getall';
+const QUES_RESTAPI_TO_RETREIVE_ALL='https://codedaily.herokuapp.com/getall';
 
 class QuestionService{
 
