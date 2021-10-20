@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const QUES_RESTAPI_TO_RETREIVE_DONE='/findbystatus/done';
+const QUES_RESTAPI_TO_RETREIVE_DONE='https://codedaily.herokuapp.com/findbystatus/done';
 
 class QuestionDoneService{
 
