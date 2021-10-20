@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const QUES_RESTAPI_TO_RETREIVE_UNDONE='https://codedaily.herokuapp.com/findbystatus/not-done';
+const QUES_RESTAPI_TO_RETREIVE_UNDONE='http://codedaily.herokuapp.com/findbystatus/not-done';
 
 class QuestionService{
 
