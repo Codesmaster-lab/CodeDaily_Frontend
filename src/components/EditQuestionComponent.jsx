@@ -59,7 +59,7 @@ saveQuestion=(e)=>{
     console.log(JSON.stringify(QuestoAdd));
 
 
-    axios.put('/update',JSON.stringify(QuestoAdd),{
+    axios.put('https://codedaily.herokuapp.com/update',JSON.stringify(QuestoAdd),{
         headers: {
           'Content-Type': 'application/json'
         }
