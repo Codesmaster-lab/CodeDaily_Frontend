@@ -24,7 +24,7 @@ componentDidMount(){
 
 updatedata(event){
 var ifds=event.target.value;
-var lonk="/update-status/"+ifds;
+var lonk="https://codedaily.herokuapp.com/update-status/"+ifds;
 
 console.log(lonk);
 axios.put(lonk).then(()=>console.log());
