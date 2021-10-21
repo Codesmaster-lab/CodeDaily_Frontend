@@ -20,7 +20,7 @@ class FooterComponent extends Component {
             <div class="card-body">
               <h5 class="card-title">Codesmaster</h5>
               <p class="card-text"> Increase your potential with CodeDaily.</p>
-              <a href="#" class="btn btn-primary">Follow me</a>
+              <a href="https://github.com/Codesmaster-lab" class="btn btn-primary">Follow me</a>
             </div>
             <div class="card-footer text-muted">
                    Insta , fb  , github        
