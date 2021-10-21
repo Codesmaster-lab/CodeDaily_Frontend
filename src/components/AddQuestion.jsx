@@ -50,13 +50,13 @@ saveQuestion=(e)=>{
     
     console.log(JSON.stringify(QuestoAdd));
 
-    axios.post('/addQuestion',JSON.stringify(QuestoAdd),{
+    axios.post('https://codedaily.herokuapp.com/addQuestion',JSON.stringify(QuestoAdd),{
         headers: {
           'Content-Type': 'application/json'
         }
       });
 
-      <Link to="/"/>
+      <Link to="https://codedaily.herokuapp.com/"/>
 
     
     
