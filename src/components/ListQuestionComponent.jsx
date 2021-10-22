@@ -47,7 +47,7 @@ window.location.reload(false);
                                 <th>Ques_ID</th>
                                 <th>Ques_Name</th>
                                 <th>Ques_Link</th>
-                                <th>Ques_Difficulty</th>
+                                <!--th>Ques_Difficulty</th-->
                                 <th>Ques_Status</th>
                                 <th>ACTION</th>
                             </tr>
@@ -61,7 +61,7 @@ window.location.reload(false);
                                         <td>{question_array.id}</td>
                                         <td>{question_array.name}</td>
                                         <td><a href={question_array.link} target="_blank"> {question_array.link}</a></td>
-                                        <td>{question_array.diff}</td>
+                                        <!--td>{question_array.diff}</td-->
                                         <td>{question_array.status}</td>
                                         <td>
                                          
