@@ -65,8 +65,8 @@ window.location.reload(false);
                                         <td>{question_array.status}</td>
                                         <td>
                                          
-                                         <button style={{marginLeft: "10px"}} className="btn btn-success btn-sm" onClick={this.updatedata.bind(this)} value={question_array.id}>Done</button>
-                                         <Link to={{pathname: "/Update"}}><button style={{marginLeft: "10px"}} className="btn btn-primary btn-sm">Update</button></Link>
+                                         <button  className="btn btn-success btn-sm" onClick={this.updatedata.bind(this)} value={question_array.id}>Done</button>
+                                         <Link to={{pathname: "/Update"}}><button style={{marginLeft: "7px"}} className="btn btn-primary btn-sm">Update</button></Link>
                                          
                                         </td>
                                     </tr>
