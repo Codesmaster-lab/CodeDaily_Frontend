@@ -61,7 +61,6 @@ window.location.reload(false);
                                         <td>{question_array.id}</td>
                                         <td>{question_array.name}</td>
                                         <td><a href={question_array.link} target="_blank"> {question_array.link}</a></td>
-                                        <!--td>{question_array.diff}</td-->
                                         <td>{question_array.status}</td>
                                         <td>
                                          
