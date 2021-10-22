@@ -47,7 +47,6 @@ window.location.reload(false);
                                 <th>Ques_ID</th>
                                 <th>Ques_Name</th>
                                 <th>Ques_Link</th>
-                                <!--th>Ques_Difficulty</th-->
                                 <th>Ques_Status</th>
                                 <th>ACTION</th>
                             </tr>
